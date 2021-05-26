@@ -24,7 +24,7 @@ alt=" welcome image")
 [main screen] ("index.html")
 
 
-# qoute of the DAY
+# qoute of the DAY.html
 
 # Quote of the day
 ** Elon Musk **
