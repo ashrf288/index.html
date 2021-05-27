@@ -24,7 +24,11 @@ alt=" welcome image")
 [main screen] ("index.html")
 
 
+<<<<<<< HEAD
 # qoute of the DAY
+=======
+# qoute of the DAY.html
+>>>>>>> 88a9ca661be94c072c51fcbbec11bac915dd7125
 
 # Quote of the day
 ** Elon Musk **
@@ -43,4 +47,8 @@ ashrf obeidat
 
 ashrfmathkour@gmail.com
 
+<<<<<<< HEAD
 [main screen] ("index.html")
+=======
+[main screen] ("index.html")
+>>>>>>> 88a9ca661be94c072c51fcbbec11bac915dd7125
