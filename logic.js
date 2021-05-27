@@ -10,11 +10,11 @@ alert("hello " + name);
 
 var age = prompt("and you age " + name+ "  ? ");
 if (age>18){
-prompt ("so your name is  " +  name + " and you are  "+ age  +"  years old! " );
+alert ("so your name is  " +  name + " and you are  "+ age  +"  years old! " );
 
 alert ("nice !")
 } else{
-  alert("try another link ");
+  alert("try another link i think you are  a child  ");
 }
 
 
