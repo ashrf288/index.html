@@ -4,22 +4,43 @@
 var name =  prompt("what is you name ? ");
 
 alert("hello " + name);
-  //  name =  prompt("please add you name  ? ");
 
 
 
-var age = prompt("and you age " + name+ "  ? ");
-if (age>18){
-alert ("so your name is  " +  name + " and you are  "+ age  +"  years old! " );
 
-alert ("nice !")
-} else{
-  alert("try another link i think you are  a child  ");
+var pizzaSlice =  prompt("how many slices of pizza you want from (1-6) ? ");
+while(pizzaSlice > 6){
+  alert ('plz enter a reasonable number');
+  pizzaSlice =  prompt("how many slices of pizza you want ? ");
+  
+}
+while(pizzaSlice <= 0){
+  alert ('plz enter a reasonable number');
+  pizzaSlice =  prompt("how many slices of pizza you want ? ");
+  
+}
+
+  
+
+
+while (pizzaSlice <= 6){
+
+for (var i =0; pizzaSlice >i;i++){
+
+  if(pizzaSlice==0){
+  
+    break;
+  }
+  
+
+   document.write("<h2>" + 'slice number' + ' ' + (i+1)+' here you go'+"</h2>");
+    document.write('<img src="https://img.huffingtonpost.com/asset/57c98304170000192ac7736c.jpg"/>');
+}
+ break;
+
 }
 
 
- document.write("<p> you are viewing this page as <strong> " + 
-name  + "</strong> </p>" );
 
  
 
