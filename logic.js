@@ -1,13 +1,14 @@
 // // this is my first jaca script file 
 
 
-var name =  prompt("what is you name ? ");
+let name =  prompt("what is you name ? ");
+console.log(name);
 
 alert("hello " + name);
 
-var pizzaSlice =  prompt("how many slices of pizza you want from (1-6) ? ");
+let pizzaSlice =  prompt("how many slices of pizza you want from (1-6) ? ");
 
-
+console.log (pizzaSlice);
 
 
 
@@ -36,7 +37,7 @@ while(pizzaSlice <= 0){
 
 while (pizzaSlice <= 6){
 
-for (var i =0; pizzaSlice >i;i++){
+for (let i =0; pizzaSlice >i;i++){
 
    document.write("<h2>" + 'slice number' + ' ' + (i+1)+' here you go'+"</h2>");
     document.write('<img src="https://img.huffingtonpost.com/asset/57c98304170000192ac7736c.jpg"/>');  
